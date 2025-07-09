@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Adjustment</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Bill Adjustment</h2>
+    <form action="/bill-adjustment" method="post">
+        <label for="bill_id">Bill ID:</label>
+        <input type="number" id="bill_id" name="bill_id" required>
+        <label for="officer_name">Officer Name:</label>
+        <input type="string" id="officer_name" name="officer_name" required>
+        <label for="officer_designation">Officer Designation:</label>
+        <input type="string" id="officer_designation" name="officer_designation" required>
+        <label for="original_bill_amount">Original Amount:</label>
+        <input type="number" id="original_bill_amount" name="original_bill_amount" step="any" required>
+        <label for="adjustment_amount">Adjustment Amount:</label>
+        <input type="number" id="adjustment_amount" name="adjustment_amount" step="any" required>
+        <label for="adjustment_reason">Adjustment Reason:</label>
+        <input type="string" id="adjustment_reason" name="adjustment_reason" required>
+        <button type="submit">Submit Adjustment</button>
+    </form>
+    </div>
+</body>
+</html>
