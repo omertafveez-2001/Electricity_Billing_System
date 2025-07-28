@@ -1,2 +1,4 @@
 # Electricity_Billing_System
-Electricity Billing System built using HTML, CSS, JavaScript, and PL/SQL (Oracle) as backend.
+This repository is my final project for the course *CS340:Databases* <br>
+
+Electricity Billing System was built using HTML, CSS, JavaScript, and PL/SQL (Oracle) as backend.
